@@ -11,6 +11,8 @@ const sentences = [
     'The quicK briwN DOX HIMOS OBTS hd a fohq w3'
 ]
 
+
+
 btn.addEventListener('click',()=>{
     switch(btn.innerText.tolowerCase()){
         case "start":
