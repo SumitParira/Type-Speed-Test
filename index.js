@@ -11,10 +11,15 @@ const sentences = [
     'The quicK briwN DOX HIMOS OBTS hd a fohq w3'
 ]
 
-
+const startTyping = () => {
+    
+    let randomNumber  = Math.floor(Math.random());
+    console.log(randomNumber);
+    
+}
 
 btn.addEventListener('click',()=>{
-    switch(btn.innerText.tolowerCase()){
+    switch(btn.innerText.toLowerCase()){
         case "start":
             typing_ground.removeAttribute('disabled');
             startTyping();
